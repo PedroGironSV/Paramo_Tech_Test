@@ -5,10 +5,12 @@ Technical test for Paramo Technologies team, using as automation stack the follo
 - JavaScript
 - Cypress
 - Cucumber (Gherkin language)
+- Node JS
 
 **Local configuration requirements**
 
  - [Install Visual Studio Code](https://code.visualstudio.com/download)
+ - [Install Node JS](https://nodejs.org/en)
  - Add the following plugin on VS Code:
 
 ```
