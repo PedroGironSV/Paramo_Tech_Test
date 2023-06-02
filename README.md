@@ -27,6 +27,12 @@ git clone https://github.com/PedroGironSV/Paramo_Tech_Test
 ```
 - Open the project on VS Code
 - Open a new Terminal
+- Install Cypress with the following command:
+
+```
+npx cypress install
+```
+
 - Execute the command:
 
 ```
