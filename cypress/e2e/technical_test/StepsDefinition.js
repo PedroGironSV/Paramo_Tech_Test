@@ -49,3 +49,30 @@ And("I select the Create Account button", () => {
 Then("I can see a successful registration message: {string}", (successRegMessage) => {
     registration.verifySuccessfulRegistrationMessage(successRegMessage);
 })
+
+/*
+    STEPS DEFINITION FOR LOGIN WITH A VALID USER SCENARIO
+*/
+
+Given("I click on Sign in button", () => {
+    login.clickOnSignInDiv();
+})
+
+When("I select Log in with email", () => {
+    login.clickOnSignInTag();
+})
+
+Then("I set a valid email {string} and password {string}", (email, password) => {
+    login.typeValidEmail(email);
+    login.typeValidPassword(password);
+})
+
+And("I Sing in", () => {
+    login.clickOnSignInButton();
+})
+
+Then("I can see my profile information including my username: {string}", (username) => {
+    login.clickOnProfileTab();
+    login.verifyUserName(username);
+    login.verifyUserId();
+})

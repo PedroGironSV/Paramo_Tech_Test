@@ -16,8 +16,8 @@ Feature: User Registration and Login
         And I select the Create Account button
         Then I can see a successful registration message: "<successRegMessage>"
         Examples:
-            | email            | password  | currency | successRegMessage                                                      |
-            | test04@gmail.com | pa$Test04 | EUR      | Registration successfully finished! Confirmation has been sent to you. |
+            | email                | password  | currency | successRegMessage                                                      |
+            | testmail01@gmail.com | pa$Test01 | EUR      | Registration successfully finished! Confirmation has been sent to you. |
 
     Scenario Outline: Log in with valid user
         Given I click on Sign in button
