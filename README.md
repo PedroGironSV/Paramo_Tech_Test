@@ -33,6 +33,10 @@ git clone https://github.com/PedroGironSV/Paramo_Tech_Test
 npx cypress install
 ```
 
+- Wait a few minutes until Cypress is installed
+
+![enter image description here](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBHNUJClkLcZzULXQQ2DWhWi2i8DP0andFUDphtpdRV4UGIjCw1ABZ-RukxhDaXKljn30JN0UMzPzB7yCli-9O3Txa2tlFqtoX6IfcGV9HmwC2HVzwK0-FzZho0tltV0lO_mPxekxv5FuW9ttdqFyWQYYNXfLntECgyNDImHYkIwGVFwixmnxArcDTsg/w640-h262/4.1%20cypress.PNG)
+
 - Execute the command:
 
 ```
