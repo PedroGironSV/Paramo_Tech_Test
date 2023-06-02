@@ -3,7 +3,7 @@ Feature: User Registration and Login
     I want to register a new user on demo.casino web site
     and also be able to perform a success login with a valid account.
 
-    Background: Background name: Load home page
+    Background: Load home page
         Given I navigate to demo.casino web site
         When I can see the Welcome message
         Then I close the Welcome message card
