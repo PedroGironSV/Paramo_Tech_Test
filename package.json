@@ -1,10 +1,10 @@
 {
   "name": "paramo_test",
   "version": "1.0.0",
-  "description": "Technical test from Paramo Technologies team",
+  "description": "Technical test for Paramo Technologies team",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress open"
   },
   "repository": {
     "type": "git",
