@@ -1,6 +1,6 @@
 **User Registration and Login - Web Automation Project**
 
-Technical test for Paramo Technologies team, using as automation stack the following technologies:
+User registration and Login on demo.casino web site, using as automation stack the following technologies:
 
 - JavaScript
 - Cypress
